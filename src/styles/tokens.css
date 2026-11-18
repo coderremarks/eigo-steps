@@ -1,0 +1,141 @@
+/* Design tokens. Text colours meet WCAG AA (4.5:1) on their surfaces; bar fills meet 3:1. */
+:root {
+  color-scheme: light;
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --surface-2: #eef2fa;
+  --surface-3: #e3e8f4;
+  --text: #1b2333;
+  --text-muted: #4f5b73;
+  --border: #d6dceb;
+  --border-strong: #b4bdd3;
+
+  --primary: #3451c7;
+  --primary-hover: #2a42a6;
+  --primary-soft: #e8edff;
+  --on-primary: #ffffff;
+  --accent: #ff922b;
+  --accent-soft: #fff1e2;
+
+  --success: #237032;
+  --success-soft: #e4f5e8;
+  --success-border: #8fd19e;
+  --warning: #8a5100;
+  --warning-soft: #fff3db;
+  --warning-bar: #d9790a;
+  --danger: #b42318;
+  --danger-soft: #fdecea;
+  --danger-border: #f0a8a1;
+  --highlight: #ffe58a;
+  --highlight-text: #1b2333;
+  --focus-ring: #1971c2;
+
+  --level-pre-a1: #e6f6ec;
+  --level-pre-a1-text: #1f6b3a;
+  --level-a1: #e5efff;
+  --level-a1-text: #1d4ea8;
+  --level-a2: #f1e9ff;
+  --level-a2-text: #5b2ea6;
+
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 22px;
+  --shadow-sm: 0 1px 2px rgb(16 24 40 / 6%);
+  --shadow: 0 1px 2px rgb(16 24 40 / 6%), 0 6px 18px rgb(16 24 40 / 7%);
+  --tap: 44px;
+  --content: 1120px;
+
+  --font:
+    system-ui, -apple-system, 'Segoe UI', Roboto, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN',
+    'Yu Gothic UI', Meiryo, 'Noto Sans JP', sans-serif;
+  --font-ja:
+    'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic UI', 'Yu Gothic', Meiryo,
+    'Noto Sans JP', sans-serif;
+}
+
+/* Dark palette: follows the OS setting unless a host page forces a theme with data-theme. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --bg: #0f1420;
+    --surface: #171e2d;
+    --surface-2: #1f2840;
+    --surface-3: #2a3550;
+    --text: #e8ecf5;
+    --text-muted: #a9b3c9;
+    --border: #2e3a55;
+    --border-strong: #46557a;
+
+    --primary: #8ea2ff;
+    --primary-hover: #a9b8ff;
+    --primary-soft: #232e52;
+    --on-primary: #0f1420;
+    --accent: #ffa94d;
+    --accent-soft: #3a2a17;
+
+    --success: #69db7c;
+    --success-soft: #16301f;
+    --success-border: #2f6b3c;
+    --warning: #ffc078;
+    --warning-soft: #33250f;
+    --warning-bar: #f0a030;
+    --danger: #ff8787;
+    --danger-soft: #3a1717;
+    --danger-border: #7a2d2d;
+    --highlight: #6b5600;
+    --highlight-text: #fff7d6;
+    --focus-ring: #74c0fc;
+
+    --level-pre-a1: #16301f;
+    --level-pre-a1-text: #8ce99a;
+    --level-a1: #1b2b4d;
+    --level-a1-text: #a5c8ff;
+    --level-a2: #2b1f47;
+    --level-a2-text: #d0bfff;
+
+    --shadow-sm: 0 1px 2px rgb(0 0 0 / 40%);
+    --shadow: 0 1px 2px rgb(0 0 0 / 40%), 0 8px 24px rgb(0 0 0 / 35%);
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0f1420;
+  --surface: #171e2d;
+  --surface-2: #1f2840;
+  --surface-3: #2a3550;
+  --text: #e8ecf5;
+  --text-muted: #a9b3c9;
+  --border: #2e3a55;
+  --border-strong: #46557a;
+
+  --primary: #8ea2ff;
+  --primary-hover: #a9b8ff;
+  --primary-soft: #232e52;
+  --on-primary: #0f1420;
+  --accent: #ffa94d;
+  --accent-soft: #3a2a17;
+
+  --success: #69db7c;
+  --success-soft: #16301f;
+  --success-border: #2f6b3c;
+  --warning: #ffc078;
+  --warning-soft: #33250f;
+  --warning-bar: #f0a030;
+  --danger: #ff8787;
+  --danger-soft: #3a1717;
+  --danger-border: #7a2d2d;
+  --highlight: #6b5600;
+  --highlight-text: #fff7d6;
+  --focus-ring: #74c0fc;
+
+  --level-pre-a1: #16301f;
+  --level-pre-a1-text: #8ce99a;
+  --level-a1: #1b2b4d;
+  --level-a1-text: #a5c8ff;
+  --level-a2: #2b1f47;
+  --level-a2-text: #d0bfff;
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 40%);
+  --shadow: 0 1px 2px rgb(0 0 0 / 40%), 0 8px 24px rgb(0 0 0 / 35%);
+}
