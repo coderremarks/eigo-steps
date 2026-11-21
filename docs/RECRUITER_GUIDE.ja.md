@@ -8,17 +8,17 @@ English version: [RECRUITER_GUIDE.md](RECRUITER_GUIDE.md)
 
 ## 5分でわかるデモの見方
 
-ライブデモを開いてください。登録は不要で、すべてブラウザの中だけで動きます。
+[ライブデモ](https://coderremarks.github.io/eigo-steps/)を開いてください。登録は不要で、すべてブラウザの中だけで動きます。
 
-| 目安 | 操作                                                                        | ご覧いただけること                                                                                                                           |
-| ---- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0:30 | トップページの **Explore the demo** を押す                                  | 架空の学習者「Sora」のデータ（2レッスン修了、1レッスン学習中、苦手分野、復習が必要な単語）。おすすめの学習には、それぞれ理由が表示されます。 |
-| 1:00 | **My Day → Grammar**（`#/learn/my-day/grammar`）で **He / She** を押す      | 対話型の文法説明。主語を切り替えると動詞の変化（He play**s**）がひと目でわかります。日本人に多い誤りのカードもあります。                     |
-| 1:00 | **My Day → Grammar practice**（`#/learn/my-day/practice`）で **get** と入力 | 訂正フィードバック。まず「Yuki は一人（she）なので -s をつけよう」というヒントを出し、自分で直す機会を与えます。正解は2回目に表示します。    |
-| 0:45 | **At the Café → Listen and choose**（`#/learn/cafe-ordering/listening`）    | 何度でも再生・スロー再生ができるリスニング。スクリプトは解答後に表示されます。                                                               |
-| 0:45 | **Progress**（`#/progress`）                                                | レッスンの達成状況、テストの点数、復習が必要な分野、苦手な単語、次のおすすめ。                                                               |
-| 1:00 | **Teacher → Class overview**（`#/teacher/class`）                           | 架空のクラス24人分のデータ。再指導すべき項目、正答率の低い問題とよくある誤答、声をかけるべき生徒がわかります。                               |
-| 0:30 | **Teacher → Export**                                                        | 印刷用フラッシュカード、ワークシートと解答、1ページの指導案。                                                                                |
+| 目安 | 操作                                                                                                                                                | ご覧いただけること                                                                                                                           |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0:30 | トップページの **Explore the demo** を押す                                                                                                          | 架空の学習者「Sora」のデータ（2レッスン修了、1レッスン学習中、苦手分野、復習が必要な単語）。おすすめの学習には、それぞれ理由が表示されます。 |
+| 1:00 | **My Day → Grammar**（[#/learn/my-day/grammar](https://coderremarks.github.io/eigo-steps/#/learn/my-day/grammar)）で **He / She** を押す            | 対話型の文法説明。主語を切り替えると動詞の変化（He play**s**）がひと目でわかります。日本人に多い誤りのカードもあります。                     |
+| 1:00 | **My Day → Grammar practice**（[#/learn/my-day/practice](https://coderremarks.github.io/eigo-steps/#/learn/my-day/practice)）で **get** と入力      | 訂正フィードバック。まず「Yuki は一人（she）なので -s をつけよう」というヒントを出し、自分で直す機会を与えます。正解は2回目に表示します。    |
+| 0:45 | **At the Café → Listen and choose**（[#/learn/cafe-ordering/listening](https://coderremarks.github.io/eigo-steps/#/learn/cafe-ordering/listening)） | 何度でも再生・スロー再生ができるリスニング。スクリプトは解答後に表示されます。                                                               |
+| 0:45 | **Progress**（[#/progress](https://coderremarks.github.io/eigo-steps/#/progress)）                                                                  | レッスンの達成状況、テストの点数、復習が必要な分野、苦手な単語、次のおすすめ。                                                               |
+| 1:00 | **Teacher → Class overview**（[#/teacher/class](https://coderremarks.github.io/eigo-steps/#/teacher/class)）                                        | 架空のクラス24人分のデータ。再指導すべき項目、正答率の低い問題とよくある誤答、声をかけるべき生徒がわかります。                               |
+| 0:30 | **Teacher → Export**                                                                                                                                | 印刷用フラッシュカード、ワークシートと解答、1ページの指導案。                                                                                |
 
 さらに、**Teacher → Create a lesson → Fill with a sample lesson → Save & preview** で、約10秒で新しいレッスンを作成できます。**Settings** では日本語サポートの切り替えやアクセシビリティ設定をご確認いただけます。
 

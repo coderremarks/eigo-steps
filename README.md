@@ -10,7 +10,7 @@ mode** for creating lessons, printing materials and seeing where a class needs h
 
 No registration, no server, no tracking: lessons and progress stay in the learner's browser.
 
-**Live demo:** _add your GitHub Pages URL here after the first deploy (see [Deploy](#deploy))._
+**Live demo:** <https://coderremarks.github.io/eigo-steps/> (no sign-up: press **Explore the demo**)
 **For recruiters:** [5-minute guide](docs/RECRUITER_GUIDE.md) · [日本語ガイド](docs/RECRUITER_GUIDE.ja.md) · [Case study](docs/CASE_STUDY.md)
 
 ![Student home with the demo learner](docs/screenshots/02-student-home.png)
